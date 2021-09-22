@@ -24,14 +24,14 @@ function MenuItem() {
             transform: openMenu ? 'translateX(0)' : 'translateX(100%)',
             transition: 'transform 0.2s ease-in'
         }}
-        className=" fixed top-0 bottom-0 bg-gray-200 w-[190px] z-50 right-0 p-5 flex-col text-justify list-none">
+        className=" fixed top-0 bottom-0 bg-gray-200 w-[190px] z-50 right-0 p-5 flex-col text-justify list-none shadow-xl drop-shadow-2xl">
             <div className="flex cursor-pointer justify-end">
                 <CloseIcon onClick={()=> setOpenMenu(false)} />
             </div>
             
                 <MenuLi page="/"> Home </MenuLi>
                 <MenuLi page="/resume"> Resume </MenuLi>
-                <MenuLi page="/projects"> Projects </MenuLi>
+                <MenuLi page="/projects"> GitHub Projects </MenuLi>
                 <MenuLi page="/contact"> Contact </MenuLi>
                 
             
