@@ -5,7 +5,7 @@ import MenuItem from './MenuItem'
 function Header() {
     return (
         <>
-        <div className="flex justify-between">
+        <div className="flex justify-between shadow-md lg:shadow-none max-w-full px-[-20px]">
             <Logo />
             <MenuItem />
         </div>
