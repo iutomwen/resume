@@ -3,7 +3,7 @@ import React from 'react'
 function Welcome() {
     return (
         <div>
-            My resume is loading
+            Coming soon...
         </div>
     )
 }
