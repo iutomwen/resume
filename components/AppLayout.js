@@ -15,7 +15,7 @@ function AppLayout({children}) {
      
         <div style={{
             position: `initial`,
-            backgroundColor: `#77dee3`
+            backgroundColor: `#1a305b` //1a305b
           }} className=" w-full h-screen m-0 overflow-x-hidden overflow-y-auto bg-center bg-fixed">
             <div style={{
               backgroundImage: `url(/assets/img/bg.png)`,
