@@ -8,7 +8,7 @@ import {
   twitterUrl,
 } from "../libs/constant";
 import Bounce from "react-reveal/Bounce";
-import Roll from "react-reveal/Roll";
+// import Roll from "react-reveal/Roll";
 function AppLayout({ children }) {
   return (
     <>
@@ -35,10 +35,12 @@ function AppLayout({ children }) {
           <div className="min-w-full flex-1 lg:h-[95%] xl:h-[87%] h-full items-center justify-items-center">
             <Bounce left>
               <div className="max-w-[1320px] relative xl:max-w-[2400px]  min-h-full lg:mx-10 lg:rounded-3xl  bg-white">
-                <div className="lg:p-5 p-0 ">
+                <div className="lg:p-5 p-0 h-auto">
                   <Header />
-                  <main className="px-10 my-auto">{children}</main>
-                  <footer className="bottom-0 left-0 w-full lg:py-0 py-10 h-16 flex items-center justify-center bg-white rounded-b-full border-t-2 bg-bottom absolute">
+                  <main className="px-10 mt-5 mb-20 pb-20 relative">
+                    {children}
+                  </main>
+                  <footer className="footer bottom-[-0] left-0 w-full lg:py-0 py-10 h-16 flex items-center justify-center bg-white rounded-b-full border-t-2 bg-bottom absolute">
                     <div className="flex flex-wrap px-10 items-center  justify-between w-full text-gray-400 text-base font-normal">
                       <div className="flex justify-between w-[250px]">
                         <p>
