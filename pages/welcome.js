@@ -2,8 +2,8 @@ import React from 'react'
 
 function Welcome() {
     return (
-        <div>
-            Coming soon...
+        <div className="text-black">
+            Coming soon..
         </div>
     )
 }

@@ -8,7 +8,7 @@ function MenuItem() {
     const [openMenu, setOpenMenu] = useState(false);
     return (
     <>
-    <div className="flex items-center justify-center lg:hidden pr-5 cursor-pointer">
+    <div className="flex items-center justify-center text-black lg:hidden pr-5 cursor-pointer">
         <MenuIcon onClick={()=> setOpenMenu(true)} />
     </div>
         <div className="lg:flex hidden items-center justify-center flex-shrink-0 space-x-4 font-normal cursor-pointer pr-10 ">
@@ -25,7 +25,7 @@ function MenuItem() {
             transition: 'transform 0.2s ease-in'
         }}
         className=" fixed top-0 bottom-0 bg-gray-200 w-[190px] z-50 right-0 p-5 flex-col text-justify list-none shadow-xl drop-shadow-2xl">
-            <div className="flex cursor-pointer justify-end">
+            <div className="flex cursor-pointer justify-end text-black">
                 <CloseIcon onClick={()=> setOpenMenu(false)} />
             </div>
             
