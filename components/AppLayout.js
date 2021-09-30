@@ -23,14 +23,14 @@ function AppLayout({ children }) {
           position: `initial`,
           backgroundColor: `#1a305b`, //1a305b
         }}
-        className=" w-full h-screen m-0 overflow-x-hidden overflow-y-auto bg-center bg-fixed"
+        className=" w-full  h-screen m-0 overflow-x-hidden overflow-y-auto bg-cover bg-fixed"
       >
         <div
           style={{
             backgroundImage: `url(/assets/img/bg.png)`,
             // backgroundPosition: `calc(50% + 2.76923px) calc(50% + 4.95359px)`
           }}
-          className=" absolute w-full h-screen bg-cover bg-no-repeat flex items-center justify-items-center"
+          className=" w-full h-full bg-cover bg-repeat flex items-center justify-items-center"
         >
           <div className="min-w-full flex-1 lg:h-[95%] xl:h-[87%] h-full items-center justify-items-center">
             <Bounce left>
