@@ -42,6 +42,7 @@ function Projects() {
             <ProjectCard
               key={id}
               name={name}
+              status={status}
               url={url}
               description={description}
             />
