@@ -1,12 +1,12 @@
-import React from 'react'
-import AppLayout from '../components/AppLayout'
+import React from "react";
+import AppLayout from "../components/AppLayout";
 
 function Resume() {
-    return (
-        <AppLayout >
-       Resume
-     </AppLayout>
-    )
+  return (
+    <AppLayout>
+      <p className="text-black">Resume...</p>
+    </AppLayout>
+  );
 }
 
-export default Resume
+export default Resume;
