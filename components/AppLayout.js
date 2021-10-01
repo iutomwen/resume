@@ -55,7 +55,10 @@ function AppLayout({ children }) {
                       </div>
 
                       <div>
-                        <p>@ 2021 All Right Reeserved.</p>
+                        <p>
+                          &copy; {new Date().getFullYear().toString()} All Right
+                          Reeserved.
+                        </p>
                       </div>
                     </div>
                   </footer>
