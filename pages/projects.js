@@ -1,13 +1,12 @@
 import React, { useState, useEffect } from "react";
+import { supabase } from "../libs/supabaseClient";
 import AppLayout from "../components/AppLayout";
 import ProjectCard from "../components/ProjectCard";
 import LoadingPage from "../components/Loading";
-import { supabase } from "../libs/supabaseClient";
 
 function Projects() {
   const [loading, setLoading] = useState(false);
   const [projectsDone, setProjectsDone] = useState(null);
-  const [errors, setErrors] = useState(null);
 
   const fetchProjects = async () => {
     try {
@@ -29,9 +28,7 @@ function Projects() {
     }
   };
   useEffect(() => {
-    setTimeout(() => {
-      fetchProjects();
-    }, 2000);
+    fetchProjects();
   }, []);
   return (
     <AppLayout>
