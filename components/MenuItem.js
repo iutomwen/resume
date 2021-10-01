@@ -13,7 +13,7 @@ function MenuItem() {
       </div>
       <div className="lg:flex hidden items-center justify-center flex-shrink-0 space-x-4 font-normal cursor-pointer pr-10 ">
         <TopMenu page="/">Home</TopMenu>
-        <TopMenu page="/resume">Resume</TopMenu>
+        {/* <TopMenu page="/resume">Resume</TopMenu> */}
         <TopMenu page="/projects">GitHub Projects</TopMenu>
         <TopMenu page="/contact">Contact</TopMenu>
       </div>
@@ -29,7 +29,7 @@ function MenuItem() {
         </div>
 
         <MenuLi page="/"> Home </MenuLi>
-        <MenuLi page="/resume"> Resume </MenuLi>
+        {/* <MenuLi page="/resume"> Resume </MenuLi> */}
         <MenuLi page="/projects"> GitHub Projects </MenuLi>
         <MenuLi page="/contact"> Contact </MenuLi>
       </div>
